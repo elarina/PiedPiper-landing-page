@@ -211,8 +211,8 @@ table .photo {
 }
 
 figure {
-  padding-left: 55px;
-  padding-right: 55px;
+  padding-left: 5em;
+  padding-right: 5em;
 }
 
 footer {
