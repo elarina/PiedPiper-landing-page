@@ -20,16 +20,15 @@ h1 {
   z-index: 1;
 }
 
-.logo {
-  padding-left: 0px;
-  padding-top: 20px;
-  padding-bottom: 19px;
-  margin-left: 0px;
-  width: 184px;
-  height: 45px;
+.nav {
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
 }
 
 .logo0 {
+  position: absolute;
   padding-right: 0px;
   padding-left: 55px;
   padding-top: 20px;
@@ -40,10 +39,21 @@ h1 {
   height: 44.96px;
 }
 
+.logo {
+  position: absolute;
+  padding-left: 55px;
+  padding-top: 20px;
+  padding-bottom: 19px;
+  margin-left: 0px;
+  width: 184px;
+  height: 45px;
+}
+
 header table {
-  position: fixed;
+  /*position: fixed;*/
   display: inline-block;
-  padding-left: 200px;
+  padding-left: 741px;
+  padding-right: 55px;
   padding-top: 28px;
   padding-bottom: 26px;
   font-size: 24px;
@@ -52,7 +62,7 @@ header table {
 }
 
 .first_section {
-  position: relative;
+  /*position: relative;*/
   padding-top: 244px;
   padding-bottom: 160px;
   background-image: url('img/image_0_small.png');
@@ -83,10 +93,6 @@ header table {
   background-color: #eeeeee;
   background-size: cover;
   background-position: center;
-  /*height: 719px;
-  width: 1219px;
-  background-color: #eeeeee;
-  margin-top: 0;*/
 }
 
 .second_section .container {
