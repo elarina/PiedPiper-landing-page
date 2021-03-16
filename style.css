@@ -43,7 +43,7 @@ header table {
   color: white;
 }
 
-.first_block {
+.first_section {
   position: relative;
   padding-top: 244px;
   padding-bottom: 160px;
@@ -52,7 +52,7 @@ header table {
   background-position: center;
 }
 
-.first_block .container {
+.first_section .container {
   box-sizing: border-box;
   max-width: 1219px;
   margin-left: auto;
@@ -61,7 +61,7 @@ header table {
   padding-right: 0;
 }
 
-.first_block .message {
+.first_section .message {
   font-size: 72px;
   line-height: 84.38px;
   font-weight: 500;
@@ -69,30 +69,39 @@ header table {
   color: #ffffff;
 }
 
-.second_block {
-  height: 719px;
+.second_section {
+  padding-top: 48px;
+  padding-bottom: 92px;
+  background-color: #eeeeee;
+  background-size: cover;
+  background-position: center;
+  /*height: 719px;
   width: 1219px;
   background-color: #eeeeee;
-  margin-top: 0;
+  margin-top: 0;*/
 }
 
-div.the_problem {
+.second_section .container {
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.second_section .the_problem {
    font-size: 64px;
-   color: #007765;
    font-weight: 500;
-   padding-top: 48px;
-   padding-bottom: 0;
    text-align: center;
+   color: #007765;
 }
 
-div.problem_desctiption {
+.second_section .message {
   font-size: 32px;
+  font-weight: 400;
+  line-height: 37.5px;
   text-align: left;
-  margin-left: 55px;
-  margin-top: 16px;
-  margin-right: 54px;
-  margin-bottom: 92px;
-  padding-top: 0;
 }
 
 .third_section {
