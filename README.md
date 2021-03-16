@@ -1,4 +1,4 @@
 # PiedPiper-landing-page
 Training task, module 6 (stepik)
 
-Temporary only for screen < 1220px.
+Available for viewing: https://elarina.github.io/PiedPiper-landing-page/
