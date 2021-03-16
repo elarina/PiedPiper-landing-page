@@ -208,3 +208,28 @@ figure {
   padding-left: 55px;
   padding-right: 55px;
 }
+
+footer {
+  padding-top: 48px;
+  padding-bottom: 64px;
+  background-color: #333333;
+  background-size: cover;
+  backgroung-position: center;
+}
+
+footer .container {
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 340px;
+  padding-right: 340px;
+}
+
+footer .message {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.09px;
+  text-align: center;
+  color: #ffffff;
+}
