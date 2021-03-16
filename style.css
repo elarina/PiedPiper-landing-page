@@ -2,6 +2,14 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+h1 {
+     font-size: 64px;
+     line-height: 75px;
+     font-weight: 500;
+     text-align: center;
+     color: #007765;
+}
+
 .header {
   position: fixed;
   background-color: #007765;
@@ -70,8 +78,8 @@ header table {
 }
 
 .second_section {
-  padding-top: 48px;
-  padding-bottom: 92px;
+  padding-top: 5px;
+  padding-bottom: 60px;
   background-color: #eeeeee;
   background-size: cover;
   background-position: center;
@@ -88,13 +96,6 @@ header table {
   margin-right: auto;
   padding-left: 55px;
   padding-right: 55px;
-}
-
-.second_section .the_problem {
-   font-size: 64px;
-   font-weight: 500;
-   text-align: center;
-   color: #007765;
 }
 
 .second_section .message {
@@ -129,4 +130,81 @@ header table {
   line-height: 56.25px;
   text-align: center;
   color: #ffffff;
+}
+
+.fourth_section{
+  padding-bottom: 58px;
+  background-color: #ffffff;
+  background-size: cover;
+  backgroung-position: center;
+}
+
+.fourth_section .container {
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.fourth_section table, .fourth_section .message {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 37.5px;
+  text-align: left;
+}
+
+.ppc_logo {
+  width: 115px;
+  height: 115px;
+  padding-right: 48px;
+}
+
+.fifth_section{
+  padding-top: 15px;
+  padding-bottom: 58px;
+  background-color: #eeeeee;
+  background-size: cover;
+  backgroung-position: center;
+}
+
+.fourth_section .container {
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.fifth_section .message {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 37.5px;
+  text-align: center;
+}
+
+table .photo {
+  width: 168px;
+  height: 168px;
+}
+
+.name {
+  font-size: 24px;
+  line-height: 28.13px;
+  font-weight: 700;
+  color: #007765;
+}
+
+.post {
+  font-style: italic;
+  font-size: 18px;
+  line-height: 21.09px;
+  font-weight: 400;
+}
+
+figure {
+  padding-left: 55px;
+  padding-right: 55px;
 }
